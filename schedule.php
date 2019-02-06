@@ -1,0 +1,72 @@
+<?php
+$xmlstr = <<<XML
+<schedule>																						
+<activity>	<cdate>	01-Sep-18	</cdate>	<activity>	Nipper Registration open	</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>		</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	30-Sep-18	</cdate>	<activity>	Club Working Bee	</activity>	<location>	Surf Club	</location>	<stime>	9.00am	</stime>	<etime>	12.00pm	</etime>	<note>	Lunch provided come and go as you wish. (compulsory)	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	30-Sep-18	</cdate>	<activity>	Nipper open day - New families 	</activity>	<location>	Surf Club	</location>	<stime>	1.00pm	</stime>	<etime>	4.00pm	</etime>	<note>		</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	30-Sep-18	</cdate>	<activity>	Age managers course 	</activity>	<location>	Surf Club	</location>	<stime>	9.00am	</stime>	<etime>	4.00pm	</etime>	<note>	(compulsory for anyone wanting to be an age manger)	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	06-Oct-18	</cdate>	<activity>	Water safety Bronze course (Day 1)	</activity>	<location>	Surf Club	</location>	<stime>	10.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Arrive at 9.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	07-Oct-18	</cdate>	<activity>	Water safety Bronze course (Day 2)	</activity>	<location>	Surf Club	</location>	<stime>	10.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Arrive at 9.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	13-Oct-18	</cdate>	<activity>	Water safety Bronze course (Day 3)	</activity>	<location>	Surf Club	</location>	<stime>	10.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Arrive at 9.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	14-Oct-18	</cdate>	<activity>	Water safety Bronze course (Day 4)	</activity>	<location>	Surf Club	</location>	<stime>	10.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Arrive at 9.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	20-Oct-18	</cdate>	<activity>	Water safety Bronze course (Day 5)	</activity>	<location>	Surf Club	</location>	<stime>	10.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Arrive at 9.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	21-Oct-18	</cdate>	<activity>	Water safety Bronze course (Day 6)	</activity>	<location>	Surf Club	</location>	<stime>	10.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Arrive at 9.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	28-Oct-18	</cdate>	<activity>	Official’s course  	</activity>	<location>	Surf Club	</location>	<stime>	10.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Arrive at 9.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	01-Nov-18	</cdate>	<activity>	Nipper Registration closed 	</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>		</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	10-Nov-18	</cdate>	<activity>	Senior First Aid 	</activity>	<location>	Surf Club	</location>	<stime>	10.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Arrive at 9.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	17-Nov-18	</cdate>	<activity>	Age manager induction	</activity>	<location>	Surf Club	</location>	<stime>	1.00pm	</stime>	<etime>	3.00pm	</etime>	<note>	(compulsory for anyone wanting to be an age manger)	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	17-Nov-18	</cdate>	<activity>	Pre-season briefing  	</activity>	<location>	Surf Club	</location>	<stime>	3.00pm	</stime>	<etime>	4.30pm	</etime>	<note>	New parents U8's Arrive at 2.45pm	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	17-Nov-18	</cdate>	<activity>	Nipper welcome Disco	</activity>	<location>	Surf Club	</location>	<stime>	5.00pm	</stime>	<etime>	7.00pm	</etime>	<note>	Arrive at 4.45pm	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>	Badge (Session 1)	</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>		</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	25-Nov-18	</cdate>	<activity>	Nippers (Session 2) 	</activity>	<location>	St Pauls 	</location>	<stime>	9.00am	</stime>	<etime>	11.00am	</etime>	<note>	U8,U9,U13,U14-9am 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>		</activity>	<location>		</location>	<stime>		</stime>	<etime>	12.00pm	</etime>	<note>	U11,U12,U10-10am                     	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>		</activity>	<location>		</location>	<stime>	10.00am	</stime>	<etime>		</etime>	<note>	Low Tide 7.51am, 0.67m	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	01-Dec-18	</cdate>	<activity>	Club Social Night 	</activity>	<location>	Surf Club	</location>	<stime>	6.30pm	</stime>	<etime>	10.30pm	</etime>	<note>	Details will be advised closer to the date 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	02-Dec-18	</cdate>	<activity>	Nippers (Session 3) 	</activity>	<location>	St Pauls 	</location>	<stime>	9.00am	</stime>	<etime>	11.00am	</etime>	<note>	U8,U9,U13,U14-9am 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>		</activity>	<location>		</location>	<stime>	10.00am	</stime>	<etime>	12.00pm	</etime>	<note>	U11,U12,U10-10am  	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>		</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>	High Tide 7.34am, 1.50m	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	09-Dec-18	</cdate>	<activity>	Nippers (Session 4) 	</activity>	<location>	St Pauls 	</location>	<stime>	9.00am	</stime>	<etime>	11.00am	</etime>	<note>	U8,U9,U13,U14-9am 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>		</activity>	<location>		</location>	<stime>	10.00am	</stime>	<etime>	12.00pm	</etime>	<note>	U11,U12,U10-10am 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>		</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>	Low Tide 7.55am, 0.65m	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	15-Dec-18	</cdate>	<activity>	Junior Carnival #2	</activity>	<location>	Mt Martha LSC	</location>	<stime>	7.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Details will be advised closer to the date 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	16-Dec-18	</cdate>	<activity>	Nippers (Session 5) 	</activity>	<location>	Surf Club	</location>	<stime>	9.00am	</stime>	<etime>	12.00pm	</etime>	<note>	U8,U9,U13,U14-9am 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>		</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>	U11,U12,U10-10am 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>		</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>	Low Tide 12.19pm, 0.55m	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	23-Dec-18	</cdate>	<activity>	Nippers Christmas special 	</activity>	<location>	Surf Club	</location>	<stime>	9.00am	</stime>	<etime>	12.00pm	</etime>	<note>	U8,U9,U13,U14-9am 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>	(Session 6) 	</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>	U11,U12,U10-10am 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>		</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>	High Tide 12.31pm, 1.32m	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	04-Jan-19	</cdate>	<activity>	Junior Carnival #3	</activity>	<location>	Cosy Corner 	</location>	<stime>	7.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Details will be advised closer to the date 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	06-Jan-19	</cdate>	<activity>	Bronze and SRC course (Day 1)	</activity>	<location>	Surf Club	</location>	<stime>	9.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Arrive at 9.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	07-Jan-19	</cdate>	<activity>	Bronze and SRC course (Day 2)	</activity>	<location>	Surf Club	</location>	<stime>	9.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Arrive at 8.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	08-Jan-19	</cdate>	<activity>	Bronze and SRC course (Day 3)	</activity>	<location>	Surf Club	</location>	<stime>	9.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Arrive at 8.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	09-Jan-19	</cdate>	<activity>	Bronze and SRC course (Day 4)	</activity>	<location>	Surf Club	</location>	<stime>	9.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Arrive at 8.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	10-Jan-19	</cdate>	<activity>	Bronze and SRC course (Day 5) Assessment 	</activity>	<location>	Surf Club	</location>	<stime>	9.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Arrive at 8.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	11-Jan-19	</cdate>	<activity>	Bronze and SRC course (Day 6) Assessment 	</activity>	<location>	Surf Club	</location>	<stime>	9.00am	</stime>	<etime>	4.30pm	</etime>	<note>	Arrive at 8.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	11-Jan-19	</cdate>	<activity>	Club Social Night 	</activity>	<location>	Surf Club	</location>	<stime>	5.00pm	</stime>	<etime>	11.00pm	</etime>	<note>	Details will be advised closer to the date 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	12-Jan-19	</cdate>	<activity>	Compulsory patrol for all course members 	</activity>	<location>	Surf Club	</location>	<stime>	1.00pm	</stime>	<etime>	6.00pm	</etime>	<note>	Arrive at 12.30pm	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	13-Jan-19	</cdate>	<activity>	Sorrento Bay swim - Volunteers needed 	</activity>	<location>	Surf Club	</location>	<stime>	6.00am	</stime>	<etime>	1.00pm	</etime>	<note>	Details will be advised closer to the date 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	19-Jan-19	</cdate>	<activity>	Junior Carnival #4 (Qualifying 	</activity>	<location>	Banncoora LSC	</location>	<stime>	7.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Details will be advised closer to the date 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>	Carnival)	</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>		</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>	Club Championships	</activity>	<location>	Surf Club	</location>	<stime>	11.30am	</stime>	<etime>	3.30pm	</etime>	<note>	Details will be advised closer to the date 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	20-Jan-19	</cdate>	<activity>	Nippers (Session 9)	</activity>	<location>	Surf Club	</location>	<stime>	9.00am	</stime>	<etime>	12.00pm	</etime>	<note>	U8,U9,U13,U14-9am 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>		</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>	U11,U12,U10-10am 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>		</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>	High Tide 10.42am, 1.28m	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	27-Jan-19	</cdate>	<activity>	Nippers (Session 10) - Sorrento 	</activity>	<location>	Surf Club	</location>	<stime>	9.00am	</stime>	<etime>	12.00pm	</etime>	<note>	U8,U9,U13,U14-9am 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>	Nipper carnival 	</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>	U11,U12,U10-10am 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>		</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>	Low Tide 11.15am, 0.28m	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	03-Feb-19	</cdate>	<activity>	Junior Carnival #5 (Qualifying 	</activity>	<location>	Mordiadlloc LSC 	</location>	<stime>	7.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Details will be advised closer to the date 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>	Carnival)	</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>		</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	10-Feb-19	</cdate>	<activity>	Nippers (Session 11) 	</activity>	<location>	Surf Club	</location>	<stime>	9.00am	</stime>	<etime>	12.00pm	</etime>	<note>	U8,U9,U13,U14-9am 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>		</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>	U11,U12,U10-10am 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>		</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>	Low Tide 10.22am, 0.44m	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	16-Feb-19	</cdate>	<activity>	Club Social Night 	</activity>	<location>	Surf Club	</location>	<stime>	5.00pm	</stime>	<etime>	9.00pm	</etime>	<note>	Details will be advised closer to the date 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	17-Feb-19	</cdate>	<activity>	Nippers Family Fun and	</activity>	<location>	Surf Club	</location>	<stime>	9.00am	</stime>	<etime>	12.00pm	</etime>	<note>	Arrive at 8.45am	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>	Presentation Day (Session 12) 	</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>	High Tide 8.59am, 1.30m	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	23-Feb-19	</cdate>	<activity>	State Junior Life Saving 	</activity>	<location>	Lorne SLSC 	</location>	<stime>	7.30am	</stime>	<etime>	4.00pm	</etime>	<note>	Details will be advised closer to the date 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>	Championships 	</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>		</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	24-Feb-19	</cdate>	<activity>	State Junior Life Saving 	</activity>	<location>	 Lorne SLSC  	</location>	<stime>	7.30am	</stime>	<etime>	4.00pm	</etime>	<note>	Details will be advised closer to the date 	</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>		</cdate>	<activity>	Championships 	</activity>	<location>		</location>	<stime>		</stime>	<etime>		</etime>	<note>		</note>	<grp>	N	</grp>	</activity>
+<activity>	<cdate>	02-Mar-19	</cdate>	<activity>	Club Working Bee (compulsory)	</activity>	<location>	Surf Club	</location>	<stime>	10.00am	</stime>	<etime>	4.00pm	</etime>	<note>	Lunch provided come and go as you wish.	</note>	<grp>	N	</grp>	</activity>
+</schedule>																								
+XML;
+?>

@@ -1,0 +1,72 @@
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mem-margin-bottom {
+	margin-bottom: 18em;
+}
+.memla-logo {
+ 
+  width: 17em;
+  border: 0.4em solid lightgrey;
+  padding: 1em;
+  margin: auto;
+  margin-bottom: 1em; 
+  margin-top: -5em; 
+}  
+  
+.memla-logo > h1 {font-size: 3em;
+				  text-align: center;
+				  color: lightgrey;
+				  letter-spacing: 10px;
+  }
+
+.beauty {
+	margin-bottom: 4em;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('images/surfpic2.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("images/backmid.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("images/backbot.jpg");
+    min-height: 400px;
+}
+
+.w3-wide1 {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+tab1 { padding-left: 4em; }
+tab2 { padding-left: 8em; }
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+}
+</style>
